@@ -13,7 +13,7 @@ Builds a Visual Studio 2022 Offline Installer for local intranet use.
 10. ALL GOOD!!!
 
 Additional Files
-I tried to add a second VHD but there is a 25MB restriction so the files and folders in this respository minus the VHD and ReadMe should be in the VS2022_Installer folder on your C:\
+I tried to add a second VHD but there is a 25MB restriction so the files and folders in this respository minus the VHD and ReadMe should be in the VS2022_Installer folder on your C:\. Kick off the GetVisualStudio.bat with elevated permissions at the command prompt C:\VS2022_Installer.
 
 
 
