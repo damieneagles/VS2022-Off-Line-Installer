@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<header>
+<Title>Microsoft Visual Studio 2022 Install</Title>
+</header>
+<body>
+    <h1><a href=".\PS_Scripts\Install_VS2022_Community.ps1">Install Microsoft Visual Studio 2022 Community</a></h1>
+    <h1><a href=".\PS_Scripts\Install_VS2022_Professional.ps1">Install Microsoft Visual Studio 2022 Professional</a></h1>
+    <h1><a href=".\PS_Scripts\Install_VS2022_Enterprise.ps1">Install Microsoft Visual Studio 2022 Enterprise</a></h1>
+    <h1><a href=".\PS_Scripts\Install_VS2022_BuildTools.ps1">Install Microsoft Visual Studio 2022 BuildTools</a></h1>
+    <p>
+        <h2>
+            To customise the install edit the Response.json file under the Visual Studio version
+            and take out all:true and use the add section instead, there is an example to add already
+            in the Response.json file but it is overridden at the moment by the all:True setting
+        </h2>
+        <h2>To make sure you can run the powershells scripts for the Microsoft Visual Studio 2022 Offline Installer, run up the powershell IDE in Admin mode and use the commands</h2>
+    </p>
+    <p>
+        <b>Set-ExecutionPolicy remotesigned -scope CurrentUser</b><br />
+        Then press enter (pwsh prompt) or F5 in PowerShell IDE
+    </p>
+    <p>
+        <b>Set-ExecutionPolicy remotesigned -scope LocalMachine</b><br />
+        Then press enter (pwsh prompt) or F5 in PowerShell IDE
+    </p>
+</body>
+
+
+
+
+</html>
